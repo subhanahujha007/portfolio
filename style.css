@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: #fff;
+background-color: #171717;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    
+}
+#nav{
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#nav > a {
+text-decoration: none;
+transition: all 0.5s;
+}
+#nav > a:hover{
+    transform: translateY(-10px);
+}
+#logo{
+    align-items: center;
+    
+    display: inline;
+}
+#left{
+    height: 70%;
+    width: 40%;
+}
+#left > p{
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 50px;
+}
+#first{
+    
+    margin: auto;
+    display:flex;
+    height: 80%;
+    width: 90%;
+    justify-content: space-between;
+}
+#photo{
+    border-radius: 50%;
+    width: 30%;
+height: 70%;
+object-fit: cover;
+background-image:url(s.jpeg) ;
+}
+#project{
+    border-top:2px solid white ;
+    height: 170vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom:2px solid white ;
+}
+#heading{
+    height: 50px;
+    margin: 0 auto ;
+}
+#content{
+    height: 130vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 85vw;
+    flex-wrap: wrap;
+}
+.projectcontent{
+    width: 40vw;
+    display: flex;
+    
+    border-radius: 10px;
+    transition: all 0.5s;
+    justify-content: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 50vh;
+}
+.projectcontent >a{
+    background-color: transparent;
+    font-size: 50px;
+    text-decoration: none;
+}
+#calculator{
+    background-image: url(Screenshot\ \(144\).png);
+} 
+#landingpage{
+    background-image: url(Screenshot\ \(145\).png);
+}
+#about{
+    height: 100vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+#heading1{
+    height: 50px;
+    margin: 0 auto ;
+}
+#about >p{
+    font-size: 25px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+#contact{
+    border-top:2px solid white ;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+#pehla{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#pehla  >a{
+    text-decoration: none;
+}#last >a{
+    text-decoration: none;
+}
+#mid{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#last{
+     display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+button{
+background-color: transparent;
+border:2px solid crimson;
+background-color: crimson;
+font-size: 30px;
+transition: all 0.5s;
+margin: 20px;
+}
+button:hover{
+transform: scale(1.2);
+}
+.projectcontent:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+#nav{
+    flex-direction: column;
+}
+#first{
+    flex-direction: column;
+   height: 100vh;
+}
+#main{
+    height: 115vh;
+}
+#photo{
+    width: 80%;
+    height: 70%;
+}
+#cotent{
+    flex-direction: column;
+
+}
+.projectcontent{
+    width: 100%;
+}
+}
